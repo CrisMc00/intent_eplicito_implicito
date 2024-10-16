@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir whatsapp" />
+
+    <Button
+        android:id="@+id/twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir twitter" />
+
+    <Button
+        android:id="@+id/youtube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir youtube" />
+
+    <Button
+        android:id="@+id/twitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir twitch" />
+
+    <Button
+        android:id="@+id/wikipedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir wikipedia" />
+
+    <Button
+        android:id="@+id/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir facebook" />
+
+</LinearLayout>
